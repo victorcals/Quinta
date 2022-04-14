@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/quinta/projeto/CSS/jin.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <a href="index.html">Home</a>
+    <center>
+      <h1>Faça seu login!</h1>
+
+      <form action="">
+        <input type="text" placeholder="E-mail" required /><br /><br />
+
+        <input
+          type="password"
+          placeholder="Senha"
+          id="typepass"
+          required
+        /><br />
+        <input type="checkbox" onclick="Toggle()" />
+        <b>Mostrar a senha</b><br /><br />
+
+        <button type="submit">Entrar</button>
+      </form>
+      <br />
+
+      <a href="/quinta/projeto/cadas_p.html">Ainda não sou cliente</a>
+
+      <a href="/quinta/projeto/esqueci_senha.html">Esqueci a senha</a>
+    </center>
+
+    <script>
+      // Change the type of input to password or text
+      function Toggle() {
+        var temp = document.getElementById('typepass')
+        if (temp.type === 'password') {
+          temp.type = 'text'
+        } else {
+          temp.type = 'password'
+        }
+      }
+    </script>
+  </body>
+</html>

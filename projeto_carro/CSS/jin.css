@@ -1,0 +1,98 @@
+.sieg{
+  font-family: Comic Sans MS;
+  font-size: 16px;
+  /* color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/quinta/projeto/img/foto.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background: url(../img/foto.png) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+}
+
+li{
+  padding: 10px;
+  display: inline;
+}
+
+a{
+  color: #ffffff ;
+  text-decoration: underline;
+}
+
+ol, ul {
+ list-style: none;
+}
+
+
+h4{
+  font-family: Comic Sans MS;
+}
+
+h3{
+  font-family: Comic Sans MS;
+}
+
+h1{
+  font-family: Comic Sans MS;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+p
+{
+  font-family: Blippo;
+}
+
+button {
+  background-color: #2c3e50; 
+  border: none;
+  color: #1abc9c;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+ display: inline-block;
+}
+
+#cont1{
+  margin-right: 70px;
+  background-color: rgb(175, 228, 228);
+  width: 300px;
+  height: 300px;
+}
+
+#cont2{
+  margin-left: 300px;
+  background-color: rgb(193, 214, 226);
+  width:300px;
+  height: 300px;
+}
+
+.foto{
+  width: 300px;
+  height: 300px;
+}
